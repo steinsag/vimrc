@@ -1,5 +1,7 @@
 " fuer HTML Dateien einige kleine Erleichterungen
 " alle Umlaute automatisch umbauen
+set tabstop=2
+set expandtab
 set textwidth=80
 ino ä &auml;
 ino Ä &Auml;

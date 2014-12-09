@@ -264,6 +264,9 @@ if has("autocmd")
 
 	" fuer JS Dateien einige spezielle Sachen beachten
 	autocmd BufEnter *.js runtime js.vim
+
+	" fuer Ruby Dateien einige spezielle Sachen beachten
+	autocmd BufEnter *.rb runtime rb.vim
 endif " if has("autocmd")
 
 " einige Abkuerzungen laden, die immer verfuegbar sein sollen
