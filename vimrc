@@ -263,7 +263,7 @@ if has("autocmd")
 	autocmd BufEnter *.py runtime py.vim
 
 	" fuer JS Dateien einige spezielle Sachen beachten
-	autocmd BufEnter *.js runtime js.vim
+	autocmd BufEnter *.js,*.json runtime js.vim
 
 	" fuer Ruby Dateien einige spezielle Sachen beachten
 	autocmd BufEnter *.rb runtime rb.vim
