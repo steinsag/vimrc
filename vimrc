@@ -265,6 +265,9 @@ if has("autocmd")
 	" fuer JS Dateien einige spezielle Sachen beachten
 	autocmd BufEnter *.js,*.json runtime js.vim
 
+	" fuer Scala Dateien einige spezielle Sachen beachten
+	autocmd BufEnter *.java,*.scala runtime scala.vim
+
 	" fuer Ruby Dateien einige spezielle Sachen beachten
 	autocmd BufEnter *.rb runtime rb.vim
 endif " if has("autocmd")
